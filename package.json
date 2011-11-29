@@ -1,0 +1,27 @@
+{
+  "author": "Andrew Moist (http://www.andrewmoist.com)",
+  "name": "socket-crash",
+  "description": "An easy way to check if your socket.io application is production ready. Socket-crash attempts to send invalid data to your socket.io server. Will your server crash?",
+  "version": "0.0.5",
+  "homepage": "https://github.com/andyuk/socket-crash",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andyuk/mongo-chat.git"
+  },
+  "main": "socket-crash.js",
+  "scripts": {
+    "test": "vows test/*.js --spec"
+  },
+  "engines": {
+    "node": "~0.4.11"
+  },
+  "dependencies": {
+    "socket.io-client": "0.8.7",
+    "optimist": "0.2.6",
+    "underscore": "1.1.7",
+    "async": "0.1.6"
+  },
+  "devDependencies": {
+    "vows": "0.6.0"
+  }
+}

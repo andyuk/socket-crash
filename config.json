@@ -1,0 +1,11 @@
+{
+  "socketio": {
+    "uri": "http://localhost:3000",
+    "config": {
+      "resource": "socket.io"
+    }
+  },
+  "events": [
+    "nickname"
+  ]
+}
